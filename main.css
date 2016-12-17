@@ -1,0 +1,19 @@
+div#container {
+    min-width: 100%;
+}
+@media(max-width:400px) {
+    div#sidebarwrapper {
+        display: none;
+    }
+    div.memberwrapper {
+        display: none;
+    }
+}
+@media(min-width:700px) {
+    div#sidebarwrapper {
+        display: block;
+    }
+    div.memberwrapper {
+        display: block;
+    }
+}
