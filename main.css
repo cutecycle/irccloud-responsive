@@ -1,7 +1,7 @@
 div#container {
     min-width: 100%;
 }
-@media(max-width:400px) {
+@media(max-width:40em) {
     div#sidebarwrapper {
         display: none;
     }
@@ -9,7 +9,7 @@ div#container {
         display: none;
     }
 }
-@media(min-width:700px) {
+@media(min-width:400em) {
     div#sidebarwrapper {
         display: block;
     }
